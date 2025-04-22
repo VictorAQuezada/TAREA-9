@@ -1,0 +1,15 @@
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\bin\Debug\netstandard2.0\MisLenguajesFavoritos.deps.json
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\bin\Debug\netstandard2.0\MisLenguajesFavoritos.dll
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\bin\Debug\netstandard2.0\ref\MisLenguajesFavoritos.dll
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\bin\Debug\netstandard2.0\MisLenguajesFavoritos.pdb
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.csproj.AssemblyReference.cache
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.AssemblyInfoInputs.cache
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.AssemblyInfo.cs
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.csproj.CoreCompileInputs.cache
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.dll
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\refint\MisLenguajesFavoritos.dll
+C:\Users\Shint\Desktop\APPS\MisLenguajesFavoritos\MisLenguajesFavoritos\obj\Debug\netstandard2.0\MisLenguajesFavoritos.pdb

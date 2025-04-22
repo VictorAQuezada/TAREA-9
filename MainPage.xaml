@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MisLenguajesFavoritos.MainPage">
+
+    <StackLayout Padding="10" BackgroundColor="Black"> 
+        <!-- Encabezado -->
+        <Frame BorderColor="Orange" CornerRadius="10" Padding="8" Margin="0,20,0,20">
+            <StackLayout>
+                <Label Text="Los Códigos Favoritos de Víctor Quezada"
+                       FontSize="24" TextColor="Black"
+                       FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <BoxView Color="Orange" HeightRequest="2" HorizontalOptions="Fill" />
+            </StackLayout>
+        </Frame>
+
+        <!-- ScrollView para las imágenes -->
+        <ScrollView>
+            <StackLayout Padding="5">
+                <Grid BackgroundColor="Black" RowSpacing="10" ColumnSpacing="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="0" Grid.Column="0" BackgroundColor="#F79F1F"
+                                 WidthRequest="80" HeightRequest="80"
+                                 x:Name="ir_html" Clicked="ir_html_Clicked" />
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/512px-CSS.3.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="0" Grid.Column="1" BackgroundColor="#0abde3"
+                                 WidthRequest="80" HeightRequest="80"
+                                 x:Name="Ir_css" Clicked="Ir_css_Clicked"/>
+
+                    <!-- Fila 2 -->
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="1" Grid.Column="0" BackgroundColor="#ffdd59"
+                                 WidthRequest="80" HeightRequest="80" />
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/512px-PHP-logo.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="1" Grid.Column="1" BackgroundColor="#706fd3"
+                                 WidthRequest="80" HeightRequest="80" />
+
+                    <!-- Fila 3 -->
+                    <ImageButton Source="https://cdn.iconscout.com/icon/free/png-256/free-csharp-1175240.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="2" Grid.Column="0" BackgroundColor="#f7f1e3"
+                                 WidthRequest="80" HeightRequest="80" />
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="2" Grid.Column="1" BackgroundColor="#f7f1e3"
+                                 WidthRequest="80" HeightRequest="80" />
+
+                    <!-- Fila 4 -->
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="3" Grid.Column="0" BackgroundColor="#f7f1e3"
+                                 WidthRequest="80" HeightRequest="80" />
+                    <ImageButton Source="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="3" Grid.Column="1" BackgroundColor="#f7f1e3"
+                                 WidthRequest="80" HeightRequest="80" />
+
+                    <!-- Fila 5 -->
+                    <ImageButton Source="https://angular.io/assets/images/logos/angular/logo-nav@2x.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="4" Grid.Column="0" BackgroundColor="#ff5252"
+                                 WidthRequest="80" HeightRequest="80" />
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="4" Grid.Column="1" BackgroundColor="White"
+                                 WidthRequest="80" HeightRequest="80" />
+
+                    <!-- Fila 6 -->
+                    <ImageButton Source="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="5" Grid.Column="0" BackgroundColor="#d2dae2"
+                                 WidthRequest="80" HeightRequest="80" />
+                    <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                                 CornerRadius="10" BorderColor="White" BorderWidth="0"
+                                 Grid.Row="5" Grid.Column="1" BackgroundColor="#0be881"
+                                 WidthRequest="80" HeightRequest="80" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
